@@ -1,0 +1,6 @@
+C:\Users\tec08dl1\source\repos\examen\ServicioWeb.Dominio\bin\Debug\ServicioWeb.Dominio.dll
+C:\Users\tec08dl1\source\repos\examen\ServicioWeb.Dominio\bin\Debug\ServicioWeb.Dominio.pdb
+C:\Users\tec08dl1\source\repos\examen\ServicioWeb.Dominio\obj\Debug\ServicioWeb.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\tec08dl1\source\repos\examen\ServicioWeb.Dominio\obj\Debug\ServicioWeb.Dominio.dll
+C:\Users\tec08dl1\source\repos\examen\ServicioWeb.Dominio\obj\Debug\ServicioWeb.Dominio.pdb
+C:\Users\tec08dl1\source\repos\examen\ServicioWeb.Dominio\obj\Debug\ServicioWeb.Dominio.csproj.AssemblyReference.cache

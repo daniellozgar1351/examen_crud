@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TESTModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'TEST.dbo.usuarios' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="usuarios">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="varchar" MaxLength="50" />
+    <Property Name="email" Type="varchar" MaxLength="50" />
+    <Property Name="password" Type="varchar" MaxLength="150" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'TEST.dbo.usuarios_datos' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="usuarios_datos">
+    <Key>
+      <PropertyRef Name="id" />
+      <PropertyRef Name="fechaNacimiento" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="idUsuario" Type="int" />
+    <Property Name="direccion" Type="varchar" MaxLength="150" />
+    <Property Name="telefono" Type="varchar" MaxLength="10" />
+    <Property Name="fechaNacimiento" Type="date" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="TESTModelStoreContainer">
+    <EntitySet Name="usuarios" EntityType="Self.usuarios" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [usuarios].[id] AS [id], 
+    [usuarios].[name] AS [name], 
+    [usuarios].[email] AS [email], 
+    [usuarios].[password] AS [password]
+    FROM [dbo].[usuarios] AS [usuarios]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="usuarios_datos" EntityType="Self.usuarios_datos" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [usuarios_datos].[id] AS [id], 
+    [usuarios_datos].[idUsuario] AS [idUsuario], 
+    [usuarios_datos].[direccion] AS [direccion], 
+    [usuarios_datos].[telefono] AS [telefono], 
+    [usuarios_datos].[fechaNacimiento] AS [fechaNacimiento]
+    FROM [dbo].[usuarios_datos] AS [usuarios_datos]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

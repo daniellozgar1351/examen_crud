@@ -1,0 +1,12 @@
+C:\Users\tec08dl1\source\repos\examen\ServicioWeb.Datos\bin\Debug\ServicioWeb.Datos.dll.config
+C:\Users\tec08dl1\source\repos\examen\ServicioWeb.Datos\bin\Debug\ServicioWeb.Datos.dll
+C:\Users\tec08dl1\source\repos\examen\ServicioWeb.Datos\bin\Debug\ServicioWeb.Datos.pdb
+C:\Users\tec08dl1\source\repos\examen\ServicioWeb.Datos\bin\Debug\EntityFramework.dll
+C:\Users\tec08dl1\source\repos\examen\ServicioWeb.Datos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\tec08dl1\source\repos\examen\ServicioWeb.Datos\bin\Debug\EntityFramework.xml
+C:\Users\tec08dl1\source\repos\examen\ServicioWeb.Datos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\tec08dl1\source\repos\examen\ServicioWeb.Datos\obj\Debug\ServicioWeb.Datos.csproj.CoreCompileInputs.cache
+C:\Users\tec08dl1\source\repos\examen\ServicioWeb.Datos\obj\Debug\ServicioWeb.Datos.csproj.CopyComplete
+C:\Users\tec08dl1\source\repos\examen\ServicioWeb.Datos\obj\Debug\ServicioWeb.Datos.dll
+C:\Users\tec08dl1\source\repos\examen\ServicioWeb.Datos\obj\Debug\ServicioWeb.Datos.pdb
+C:\Users\tec08dl1\source\repos\examen\ServicioWeb.Datos\obj\Debug\ServicioWeb.Datos.csproj.AssemblyReference.cache

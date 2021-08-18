@@ -1,0 +1,38 @@
+﻿@model UsuariosDatos
+@{
+    ViewBag.Title = "Actualizar";
+}
+
+<h2>Actualizar usuario</h2>
+<hr />
+
+<form method="post" action="@Url.Action("Actualizar","Usuarios")">
+    <div class="form-group">
+        <label>IdUsuario</label>
+        @Html.TextBoxFor(x => x.id, new { @class = "form-control", @readonly = "readonly" })
+    </div>
+    <div class="form-group">
+        <label>Nombre</label>
+        @Html.TextBoxFor(x => x.name, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        <label>Correo</label>
+        @Html.TextBoxFor(x => x.email, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        <label>Dirección</label>
+        @Html.TextBoxFor(x => x.direccion, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        <label>Teléfono</label>
+        @Html.TextBoxFor(x => x.telefono, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        <label>Fecha de nacimiento</label>
+        @Html.TextBoxFor(x => x.fechaNacimiento, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        <input type="submit" class="btn-success" value="Enviar" />
+        <a href="@Url.Action("Index","Usuarios")">Regresar</a>
+    </div>
+</form>

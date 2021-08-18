@@ -1,0 +1,39 @@
+﻿@model  UsuariosDatos
+
+Fuente: https://www.iteramos.com/pregunta/21382/dos-modelos-en-una-vista-en-asp-mvc-3
+@{
+    ViewBag.Title = "Detalle";
+}
+
+<h2>
+    <a href="@Url.Action("NuevoDato","Usuarios")" class="btn btn-primary right">Nuevo</a>
+    Destalle Usuarios
+</h2>
+
+<div class="form-group">
+    <label>IdUsuario:</label>
+    @Model.id
+</div>
+<div class="form-group">
+    <label>Nombre</label>
+    @Model.name
+</div>
+<div class="form-group">
+    <label>Correo</label>
+    @Model.email
+</div>
+<div class="form-group">
+    <label>Dirección</label>
+    @Model.direccion
+</div>
+<div class="form-group">
+    <label>Teléfono</label>
+    @Model.telefono
+</div>
+<div class="form-group">
+    <label>Fecha de nacimiento</label>
+    @Model.fechaNacimiento
+</div>
+<div class="form-group">
+    <a href="@Url.Action("Index","Usuarios")">Regresar</a>
+</div>

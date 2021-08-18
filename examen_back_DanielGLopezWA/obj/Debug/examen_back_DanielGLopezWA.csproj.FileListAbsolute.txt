@@ -1,0 +1,2 @@
+C:\Users\tec08dl1\source\repos\examen\examen_back_DanielGLopezWA\obj\Debug\examen_back_DanielGLopezWA.csproj.AssemblyReference.cache
+C:\Users\tec08dl1\source\repos\examen\examen_back_DanielGLopezWA\obj\Debug\examen_back_DanielGLopezWA.csproj.CoreCompileInputs.cache
